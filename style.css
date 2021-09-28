@@ -79,3 +79,29 @@ ul {
     display: flex;
     margin-left: 500px;
 }
+
+.signup {
+    display: flex;
+    flex: 1 0 auto;
+    border: 4px solid purple;
+}
+
+.signup .rcorner1 {
+    display: flex;
+    flex: 1;
+    border-radius: 25px;
+    background: lightblue;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    align-items: center;
+}
+
+.push-right{
+    margin-left: auto;
+}
+
+.footer {
+    display: flex;
+    border: 4px solid blue;
+}
