@@ -79,14 +79,14 @@ a:hover {
 
 .content1 .image {
     margin: 5vw;
-    max-width: 50%;
+    max-width: 30%;
     height: auto;
 
 }
 
-.content1.header {
+.content1header {
     font-size: 25px;
-    margin-top: 5vh;
+    margin-top: 10vh;
     font-weight: bolder;
 }
 
@@ -117,14 +117,22 @@ a:hover {
     /*border: 4px solid green;*/
     padding-left: 10%;
     padding-right: 10%;
+    margin-bottom: 5vh;
 }
 
 .content2 .img {
     display: flex;
     flex: 1;
     align-items: flex-start;
-    /*border: 4px solid red;*/
+    /*border: 2px solid lightgray;
+    border-radius: 10px;*/
+    margin-left: 10px;
     flex-direction: column;
+}
+
+.content2 .img .image {
+    display: flex;
+    align-self: center;
 }
 
 .quote {
@@ -140,11 +148,12 @@ a:hover {
 .quote .center {
     display: flex;
     justify-content: center;
+    font-style: italic;
 }
 
 .quote .push-right {
     display: flex;
-    margin-left: 60vw;
+    margin-left: 50vw;
 }
 
 .signup {
@@ -153,6 +162,7 @@ a:hover {
     /*border: 4px solid purple;*/
     align-items: center;
     color: white;
+    padding: 10vh 0 10vh 0;
 }
 
 .signup .rcorner1 {
@@ -160,7 +170,7 @@ a:hover {
     flex: 1;
     border-radius: 20px;
     background: #3882f6;
-    padding: 25px;
+    padding: 50px;
     height: 50px;
     width: 50%;
     align-items: center;
@@ -178,10 +188,17 @@ a:hover {
     text-decoration: none;
 }
 
+.signup .rcorner1 .signupbold {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
 .footer {
     display: flex;
+    flex-direction: column;
     flex-shrink: 0;
     /*border: 4px solid blue;*/
     background-color: #1F2937;
     color: white;
+    padding: 5vh;
 }
